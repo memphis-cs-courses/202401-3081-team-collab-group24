@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   root 'pages#index'
 
 
-  get 'Omaristaken', to: 'pages#Omaristaken', as: 'omaristaken'
+  get 'surafiel', to: 'pages#surafiel', as: 'surafiel'
 end
