@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   # root "posts#index"
   root 'pages#index'
 
+  get 'amohamed0203', to: 'pages#amohamed0203', as: 'amohamed0203'
+
+
 
   get 'Omaristaken', to: 'pages#Omaristaken', as: 'omaristaken'
+
 end
